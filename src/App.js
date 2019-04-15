@@ -10,8 +10,8 @@ class App extends Component {
     this.state = {
       github: {
         url: 'https://api.github.com/users',
-        client_id: 'e53febbd554644d70b00',
-        client_secret: '0eabb5d3af6d3ae419c42913f660f0523a19140e',
+        client_id: '',
+        client_secret: '',
         count: 7,
         sort: 'created: asc'
       },

@@ -12,7 +12,7 @@ const Profile = ({ user }) => (
             <li className="list-group-item">Seguindo: <span className="badge badge-info">{ user.following }</span></li>
           </ul>
           <div className="card-body">
-            <a href="user.html_url" className="btn btn-success btn-block">Ver perfil</a>
+            <a href="user.html_url" className="btn btn-info btn-block">Ver perfil</a>
           </div>
         </div>
       </div>
